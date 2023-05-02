@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Proyecto</title>
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="estilosRegistro.css">
+</head> 
+
+<body>
+    <h1>Registro página proyecto</h1>
+    <div class="container">
+        <div class="logo">
+            <img class="logo_img" src="logo.svg" alt="">
+        </div>
+        <form class="contact_form" action="Control.php" method="post">
+            <div class="form__nombre">
+                <label for="">Nombre</label>
+                <input type="text" class="nombre" name="nombre" >
+            </div>
+            <div class="form__apellido">
+                <label for="">Apellido</label>
+                <input type="text" name="apellido" >
+            </div>
+            <div class="form__usuario">
+                <label for="">Usuario</label>
+                <input type="text" name="usuario" >
+            </div>
+            <div class="form__clave">
+                <label for="">Nueva contraseña</label>
+                <input id="clave" type="text" name="password">
+
+            </div>
+            <div class="form__boton">
+                <button class="boton" type="submit" name="registrar">Registrar</button>
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
